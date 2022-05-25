@@ -16,6 +16,7 @@ let cardInfo = {
   imageURL:
     'https://images.unsplash.com/photo-1610874933184-7728fd666162?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
 };
+module.export = { cardInfo };
 ```
 
 #### Preview
