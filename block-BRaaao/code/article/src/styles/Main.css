@@ -1,0 +1,24 @@
+.head {
+    text-align: center;
+    text-decoration: underline;
+    font-style: oblique;
+    color: red;
+    font-size: 42px;
+}
+
+.articles {
+    /* width: 400px; */
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    width: 400px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
