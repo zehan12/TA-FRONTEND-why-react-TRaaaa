@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    background-color: rgb(251, 189, 32);
+    justify-content: space-between;
+    align-items: center;
+    /* color: white; */
+    padding-left: 50px;
+}
+
+ul {
+    display: flex;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    padding-right: 30px;
+}
