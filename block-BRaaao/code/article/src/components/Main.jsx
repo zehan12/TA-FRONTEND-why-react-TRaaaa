@@ -1,6 +1,6 @@
 import React from "react";
-import './Main.css';
-import articles from './data';
+import '../styles/Main.css';
+import articles from '../data/data';
 console.log(articles);
 
 

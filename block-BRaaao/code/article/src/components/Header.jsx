@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'
+import '../styles/Header.css'
 
 const NavItems = ({link = '#',value}) => <li><a href={link}>{value}</a></li>
 
