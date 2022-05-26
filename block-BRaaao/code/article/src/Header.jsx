@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css'
 
+const NavItems = ({link = '#',value}) => <li><a href={link}>{value}</a></li>
+
 function Header () {
     return <div className='header'>
         <div>
@@ -8,9 +10,9 @@ function Header () {
         </div>
         <nav>
             <ul>
-                <li><a href={() => false}>Home</a></li>
-                <li><a href={() => false}>About</a></li>
-                <li><a href={() => false}>Contact</a></li>
+                <NavItems value="Home"/>
+                <NavItems value="About"/>
+                <NavItems value="Contact"/>
             </ul>
         </nav>
     </div>

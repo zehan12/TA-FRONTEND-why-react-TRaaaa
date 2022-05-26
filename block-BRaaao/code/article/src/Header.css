@@ -7,6 +7,11 @@
     padding-left: 50px;
 }
 
+strong {
+    font-size: 22px;
+    color: rgb(47, 47, 154);
+}
+
 ul {
     display: flex;
     cursor: pointer;
@@ -15,4 +20,10 @@ ul {
 li {
     list-style: none;
     padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-weight: 500;
+    font-size: 22px;
 }

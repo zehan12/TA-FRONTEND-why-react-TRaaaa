@@ -15,16 +15,17 @@ function Card ( props ) {
         </div>
 }
 
-function Article(){
+function Articles (){
     console.log(articles,"articles");
     return articles.map( article => < Card articleInfo={article}/> )
 }
 
 function Main() {
+
     return <div>
         <h2 className="head">Articles</h2>
         <div className="articles">
-        < Article/>
+        < Articles />
         </div>
     </div>
 }
