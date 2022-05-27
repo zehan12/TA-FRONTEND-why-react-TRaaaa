@@ -1,0 +1,6 @@
+.banner {
+    background-image: url("/public/images/dog.jpeg");
+    height: 300px;
+    background-color: blue;
+    text-align: center;
+}
