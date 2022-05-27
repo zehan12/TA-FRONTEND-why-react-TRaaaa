@@ -1,0 +1,16 @@
+/* enter reset css */
+
+body{
+    background-color: rgb(245,175,125);
+}
+
+.container{
+    margin:0 auto;
+    height:400px;
+    width:400px;
+    background-color: blue;
+}
+
+.delete{
+    margin:30px;
+}

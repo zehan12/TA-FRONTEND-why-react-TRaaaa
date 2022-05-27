@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(#f0a24e, rgb(255, 123, 0));
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  border-radius: 15px;
+  text-align: center;
+  margin: 100px auto;
+  background: linear-gradient(to right,
+  rgb(138,189,229) ,rgb(140,146,220));
+  width: 450px;
+  height: 100%;
+  padding: 1px 10px 30px 10px;
+}
+
+.inputText {
+  width: 400px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+li {
+  list-style: none;
+}
