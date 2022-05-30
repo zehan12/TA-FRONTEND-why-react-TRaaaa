@@ -10,6 +10,7 @@ body {
 .flex {
   display: flex;
   padding: 20px;
+  justify-content: space-between;
 }
 
 .box {
@@ -20,8 +21,8 @@ body {
 }
 
 .wrap {
-  margin-left: 200px;
-  width: 1200px;
+  margin-right: 60px;
+  width: 1000px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -41,4 +42,8 @@ body {
   font-weight: 400;
   font-size: 17px;
   color: rgb(122, 127, 133);
+}
+
+h1 {
+  font-size: 17px;
 }
