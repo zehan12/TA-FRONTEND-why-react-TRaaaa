@@ -1,6 +1,6 @@
 function Colorbox( {value} ) {
  
-    const weigth = [ 50, 100, 200, 300, 400, 500, 600, 700, 800, 900 ]
+    const weigth = [ 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, "a100", "a200", "a400", "a700" ]
     // eslint-disable-next-line no-lone-blocks
     return <>
     {
@@ -9,7 +9,7 @@ function Colorbox( {value} ) {
             console.log(style)
             return <div className="wrap1">
             <div>
-                <div className="box" style={style} > </div>
+                <div className="box" style={{ backgroundColor: el }} > </div>
             </div>
             <div className="column">
                 <p> { weigth[i] } </p>
